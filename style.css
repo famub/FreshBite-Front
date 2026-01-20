@@ -1,10 +1,3 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #0b382b;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-}
 
 /*
 #ffff
@@ -12,8 +5,18 @@ body {
 #f47724
 #8fc548
 #0b382b
-
 */
+
+
+/* ==== ADD & Edit === */
+
+.AD {
+  font-family: Arial, sans-serif;
+  background: #0b382be8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
 
 .card {
   background: #ffff;
@@ -97,3 +100,6 @@ textarea {
 .main-btn:hover {
   background: #6a7d3c;
 }
+
+/* ====  END === ADD & Edit === */
+

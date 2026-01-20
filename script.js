@@ -1,5 +1,8 @@
 
 
+
+/* ==== ADD & Edit === */
+
 function addIngredient() {
   const div = document.createElement("div");
   div.className = "row";
@@ -22,3 +25,6 @@ function addStep() {
 
   document.getElementById("steps").appendChild(input);
 }
+
+
+/* ====  END === ADD & Edit === */
