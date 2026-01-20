@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f8f3;
+}
+
+::selection {
+  color: #0b382b;
+  background: #8fc548;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 25px auto 50px auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.card {
+  background-color: #ffff;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+  margin: 25px;
+  width: 400px;
+  min-width: 350px;
+}
+
+.card img {
+  display: block;
+  width: 250px;
+  margin: -100px auto 0;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.3));
+}
+
+.size-6 {
+  width: 24px;
+  height: 24px;
+}
+
+.card-footer {
+  display: flex;
+  /* the big space in the middle */
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #333;
+  display: flex;
+  transition: color 0.2s;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn,
+.edit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin-left: 8px;
+
+  /* The "Fun" Look */
+  background-color: transparent;
+  /* See-through initially */
+  border: 2px solid #e5e7eb;
+  /* Subtle light gray border initially */
+  border-radius: 12px;
+  /* Soft corners (The Chefie look) */
+  font-size: 1.2rem;
+  /* Icon size */
+  color: #6b7280;
+  /* Neutral gray icon initially */
+  cursor: pointer;
+
+  /* The Animation Magic */
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- Edit Button (The "Positive" Action) --- */
+.edit-btn {
+  border-color: #0b382b;
+  /* Brand Dark Green Border */
+  color: #0b382b;
+  /* Brand Dark Green Icon */
+}
+
+.edit-btn:hover {
+  background-color: #8fc548;
+  /* Fills with Brand Light Green */
+  border-color: #8fc548;
+  /* Border matches the fill */
+  color: #0b382b;
+  /* Dark text on light background for readability */
+  transform: translateY(-3px);
+  /* Lifts up slightly */
+  box-shadow: 0 4px 12px rgba(143, 197, 72, 0.4);
+  /* Glow effect */
+}
+
+/* --- Delete Button (The "Destructive" Action) --- */
+.delete-btn:hover {
+  background-color: #ef4444;
+  /* Standard 'Danger' Red */
+  border-color: #ef4444;
+  color: #ffffff;
+  /* White icon for max contrast */
+  transform: translateY(-3px) rotate(5deg);
+  /* Lifts and tilts slightly */
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+  /* Red Glow */
+}
