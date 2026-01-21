@@ -179,7 +179,7 @@ body {
 /* ==== ADD & Edit === */
 
 .AD {
-  background: #0b382be8;
+  background: #f9f8f3;
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -205,6 +205,7 @@ h2 {
 
 label{
   color: #f47724;
+  font-weight: bold;
 	
 }
 
@@ -265,7 +266,10 @@ textarea {
 }
 
 .main-btn:hover {
-  background: #6a7d3c;
+  background-color: #0b382b;
+  color: #ffffff;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 15px rgba(11, 56, 43, 0.2);
 }
 
 /* ====  END === ADD & Edit === */

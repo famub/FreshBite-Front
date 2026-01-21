@@ -26,5 +26,9 @@ function addStep() {
   document.getElementById("steps").appendChild(input);
 }
 
+function goToMyRecipes() {
+  window.location.href = "my-recipes.html";
+}
+
 
 /* ====  END === ADD & Edit === */
