@@ -274,3 +274,15 @@ textarea {
 
 /* ====  END === ADD & Edit === */
 
+
+
+.salad-img {
+  animation: spin 8s linear infinite;
+
+}
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  70%  { transform: rotate(252deg); } /* يدور 70% من الدورة */
+  85%  { transform: rotate(252deg); } /* يوقف شوي */
+  100% { transform: rotate(360deg); } /* يكمل للـ360° */
+}
