@@ -32,3 +32,9 @@ function goToMyRecipes() {
 
 
 /* ====  END === ADD & Edit === */
+
+window.onload = function() {
+  document.querySelectorAll('.salad-img').forEach(img => {
+    img.style.transform = "rotate(360deg)";
+  });
+};
