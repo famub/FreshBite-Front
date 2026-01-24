@@ -33,13 +33,13 @@
       </div>
 
       <h2>Upload Recipe Photo</h2>
-      <input type="file" accept="image/*">
+      <input type="file" accept="image/*" required>
 
       <h2>Ingredients</h2>
       <div id="ingredients">
         <div class="row">
-          <input type="text" placeholder="Enter ingredient">
-          <input type="text" placeholder="Enter quantity">
+          <input type="text" placeholder="Enter ingredient" required>
+          <input type="text" placeholder="Enter quantity" required>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
 
       <h2>Instructions</h2>
       <div id="steps">
-        <input type="text" placeholder="Step 1: Enter instructions">
+        <input type="text" placeholder="Step 1: Enter instructions" required>
       </div>
 
       <button type="button" class="small-btn" onclick="addStep()">
