@@ -52,6 +52,7 @@ body {
 }
 
 .card-title { 
+  color: #9c0000;
   font-size: 25px;
   text-align: center;
   font-weight: bold;
@@ -176,6 +177,17 @@ body {
   stroke-width: 2.5px;
 }
 
+.Secondary-title {
+  color: #f47724;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.salad-img {
+  transition: transform 4s ease;
+}
+
 /* ==== ADD & Edit === */
 
 .AD {
@@ -275,8 +287,3 @@ textarea {
 
 /* ====  END === ADD & Edit === */
 
-
-
-.salad-img {
-  transition: transform 4s ease;
-}
