@@ -25,8 +25,14 @@ function addStep() {
   document.getElementById("steps").appendChild(div);
 }
 
-function goToMyRecipes() {
-  alert("Recipe added!");
+function AddgoToMyRecipes() {
+  alert("Recipe added successfully!");
+  window.location.href = "my-recipes.html"; 
+  return false; 
+}
+
+function EditgoToMyRecipes() {
+  alert("Recipe updated successfully!");
   window.location.href = "my-recipes.html"; 
   return false; 
 }
