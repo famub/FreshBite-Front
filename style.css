@@ -213,6 +213,9 @@ h1 {
 h2 {
   margin-top: 20px;
   color: #f47724;
+
+  margin-bottom: 10px; 
+  font-size: 2rem; 
 }
 
 label{
@@ -287,3 +290,80 @@ textarea {
 
 /* ====  END === ADD & Edit === */
 
+
+
+
+/* ==== shahd === */
+
+.split-container { 
+	display: flex; 
+	height: 100vh; 
+}
+
+.left-side { 
+	flex: 1; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	padding: 20px; 
+}
+
+.right-side { 
+	flex: 1; 
+	background: url('images/salad.avif') center/cover no-repeat; 
+}
+
+.content-box { 
+	width: 100%; 
+	max-width: 350px; 
+}
+
+.app-name { font-size: 3rem; color: #0b382b; margin: 10px 0 30px; font-weight: bold; }
+
+.logo { font-size: 50px; }
+
+.signup-text { margin-top: 30px; font-size: 0.9rem; color: #666; text-align: center; }
+
+.signup-link { color: #f47724; font-weight: bold; text-decoration: none; } /*ما اعجبني لونه*/
+
+
+.input-field, .file-input {
+    width: 100%;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+	background-color: #fcfcfc;
+    outline: none;
+    transition: 0.3s;
+}
+.input-field:focus { border-color: #8fc548; box-shadow: 0 0 8px rgba(255, 204, 0, 0.2); }
+
+
+.login-btn {
+    display: block; 
+	width: 100%; 
+	padding: 15px; 
+	border-radius: 50px;
+	font-family: serif, Arial, sans-serif;
+    font-weight: bold; 
+	font-size: 1.3rem; 
+	border: none; 
+	cursor: pointer;
+    text-align: center; 
+	text-decoration: none; 
+	transition: 0.3s;
+    background: #8fc548; 
+	margin-top: 10px;
+}
+
+.login-btn:hover { background: #afd878; }
+
+.admin-btn { background: #0b382b; color: white; }
+
+
+.profile-upload { margin: 20px 0; text-align: left; }
+
+.profile-upload label { display: block; font-size: 0.9rem; margin: 0 0 8px 15px; color: #0b382b; font-weight: bold; }
+
+.file-input { padding: 10px; background: #f9f9f9; border: 1px dashed #ccc; }
