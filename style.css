@@ -279,6 +279,7 @@ textarea {
   font-size: 18px;
   cursor: pointer;
   margin-top: 20px;
+  font-family: serif, Arial, sans-serif;
 }
 
 .main-btn:hover {
