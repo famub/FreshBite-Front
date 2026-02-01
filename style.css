@@ -373,3 +373,196 @@ textarea {
 .profile-upload label { display: block; font-size: 0.9rem; margin: 0 0 8px 15px; color: #0b382b; font-weight: bold; }
 
 .file-input { padding: 10px; background: #f9f9f9; border: 1px dashed #ccc; }
+
+
+/* ==== View Recipes -Amal- === */
+
+/* HERO (Top Dark Green) */
+.hero{
+  position: relative;
+  background-color: #0b382b;
+  height: 320px;
+  padding: 0px 8%;
+}
+
+.hero-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hero-left{
+  position: relative;
+  top: 140px;
+  left: 40px;
+}
+
+.recipe-title{
+  margin: 0 10 14px 0;
+  color: white;
+  font-size: 35px;
+  letter-spacing: .9px;
+}
+
+.creator{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  font-size: 18px;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.avatar.small{
+  width: 40px;
+  height: 40px;
+  border-color: rgba(11,56,43,0.25);
+}
+
+.hero-actions{
+  display: flex;
+  gap: 10px;
+  margin-top: -250px;
+  align-items: center;
+}
+
+.icon-btn{
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 12px;
+  color: #f47724;
+  border: 2px solid #f47724;
+  background: transparent;
+  font-size: 18px;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.icon{
+ stroke:#f47724;
+ transition: stroke 0.25s ease; 
+}
+
+.icon-btn:hover {
+  stroke: #f47724;
+  fill: #f47724;
+  transform: translateY(-2px); /* jumps up */
+}
+
+.icon:hover{
+  fill: #f47724;
+}
+
+/* Circular image */
+.recipe-circle{
+  position: absolute;
+  right: 10%;
+  bottom: -140px;        
+  bottom: -140px;        
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 10px solid rgba(255,255,255,0.80);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.20);
+  background: rgba(255,255,255,0.10);
+}
+
+.recipe-circle img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.06) contrast(1.03);
+}
+
+.content{
+  padding: 150px 8% 40px; 
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card-content{
+  background: rgba(255,255,255,0.75);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.card-content::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:14px;
+  bottom:14px;
+  width:6px;
+  border-radius: 6px;
+  background: #f47724;
+}
+
+.card-content h3{
+  margin: 0 0 12px 0;
+  font-size: 20px;
+}
+
+.list{
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+/* COMMENTS */
+.comment-form{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.comment-form input{
+  flex: 1;
+  padding: 11px 12px;
+  border-radius: 12px;
+  border: 1px solid grey;
+  outline: none;
+  background: #f9f8f3;
+}
+
+.comment-form button{
+  width: 130px;
+  height:50px;
+  border-radius: 12px;
+  border: 0;
+  background: #0b382b;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.comment-form button:hover{
+  background: #8fc548;
+  color: #0b382b;
+  font-weight: 700;
+}
+
+.comment{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 14px;
+  background: #f9f8f3;
+  margin-bottom: 10px;
+}
+/* ==== END  View Recipes -Amal- === */

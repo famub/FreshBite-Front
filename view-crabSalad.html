@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fresh Bite | View Recipe</title>
-  <link rel="stylesheet" href="styleRecipes.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,15 +19,37 @@
 
         <div class="creator">
           <img class="avatar" src="images/avatar.webp" alt="creator photo">
-          <span class="creator-name">gordan ramsay</span>
+          <span class="creator-name">Gordan Ramsay</span>
         </div>
       
 
       <!-- Actions -->
       <div class="hero-actions">
-        <a class="icon-btn" href="#" title="Add to favourites">❤</a>
-        <a class="icon-btn" href="#" title="Like recipe">👍</a>
-        <a class="icon-btn" href="#" title="Report recipe">⚑</a>
+        <!-- Favorite -->
+  <button class="icon-btn" title="Favorite">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733C11.285 4.876 9.623 3.75 7.688 3.75 5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+    </svg>
+  </button>
+
+  <!-- Like -->
+  <button class="icon-btn" title="Like">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.35-1.35V5.25a2.25 2.25 0 0 0-2.25-2.25c-.7 0-1.3.4-1.7 1l-2.4 3.6c-.3.5-.9.65-1.45.65H4.5v10.5h1.5Z" />
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M4.5 10.25v10.5h10.06c1.38 0 2.56-1 2.79-2.36l1.2-7.2A2.25 2.25 0 0 0 16.33 8.5H12.75" />
+    </svg>
+  </button>
+
+  <!-- Report -->
+  <button class="icon-btn" title="Report">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M4.5 21V3.75m0 0h11.25l-1.5 3 1.5 3H4.5" />
+    </svg>
+  </button>
       </div>
      </div>
     </div>
@@ -42,30 +64,30 @@
   <main class="content">
 
     <!-- Details -->
-    <section class="card" id="details">
+    <section class="card-content" id="details">
       <h3>Details</h3>
       <p><strong>Category:</strong> Seafood Salad</p>
       <p><strong>Description:</strong> A light and refreshing crab salad with a creamy, slightly tangy dressing. This dish combines crisp textures with a smooth sesame-flavored sauce, making it perfect as a quick appetizer, side dish, or a chilled meal on warm days. Easy to prepare and great for gatherings or everyday meals.</p>
     </section>
 
     <!-- Ingredients -->
-    <section class="card" id="ingredients">
+    <section class="card-content" id="ingredients">
       <h3>Ingredients</h3>
       <ul class="list">
-        <li>Crab sticks – 500g</li>
-        <li>Fresh cucumber – 200g</li>
-        <li>Carrot – 150g</li>
-        <li>Canned corn – 100g</li>
-        <li>Mayonnaise – ½ cup</li>
-        <li>Sesame oil – 1 tbsp</li>
-        <li>Lemon juice – 1 tbsp</li>
-        <li>Ground black pepper – ½ tsp</li>
-        <li>Sesame seeds – 1 tbsp</li>
+        <li>500g Crab sticks</li>
+        <li>200g Fresh cucumber</li>
+        <li>150g Carrot</li>
+        <li>100g Canned corn</li>
+        <li>½ cup Mayonnaise</li>
+        <li>1 tbsp Sesame oil</li>
+        <li>1 tbsp Lemon juice</li>
+        <li>½ tsp Ground black pepper</li>
+        <li>1 tbsp Sesame seeds</li>
       </ul>
     </section>
 
     <!-- Instructions -->
-    <section class="card" id="instructions">
+    <section class="card-content" id="instructions">
       <h3>Instructions</h3>
       <ol class="list">
         <li>Unfold the crab sticks and cut the sheets into thin strips.</li>
@@ -78,13 +100,13 @@
     </section>
 
     <!-- Video -->
-    <section class="card" id="video">
+    <section class="card-content" id="video">
       <h3>Video</h3>
-        <a href="https://youtu.be/5QBGJSNNpoU?si=Psudu3OCIYgSk3NB">Click here</a>
+        <a href="https://youtu.be/5QBGJSNNpoU?si=Psudu3OCIYgSk3NB">https://youtu.be/5QBGJSNNpoU?si=Psudu3OCIYgSk3NB</a>
     </section>
 
     <!-- Comments -->
-    <section class="card" id="comments">
+    <section class="card-content" id="comments">
       <h3>Comments</h3>
 
       <!-- form -->
