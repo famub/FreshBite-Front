@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Recipe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="AD">
+
+  <div class="form-card">
+    <h1>Edit Recipe</h1>
+
+    <form action="#" method="#" onsubmit="return EditgoToMyRecipes()">
+
+
+      <div class="form-group">
+        <label>Recipe Name :</label>
+        <input type="text" placeholder="Enter recipe name" value="Mediterranean Grilled Chicken Bowl" required>
+      </div>
+
+      <div class="form-group">
+        <label>Category :</label>
+        <select required>
+          <option value="" disabled>Select category</option>
+          <option>Seafood Salads</option>
+          <option selected>Meat Salads</option>
+          <option>Vegan Salads</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Description :</label>
+        <textarea placeholder="Describe the recipe" required>A balanced Mediterranean bowl made with grilled chicken breast, fresh mixed greens, cucumbers, tomatoes, olives, and feta cheese. Lightly seasoned and finished with olive oil and lemon juice for a healthy, protein-rich meal.</textarea>
+      </div>
+
+      <h2>Current Photo</h2>
+      <img src="images/noBackground-Grilled-Chicken.png" alt="Current Recipe Grilled Chicken Bowl" style="width: 100px; display:block; margin-bottom:10px;">
+      <input type="file" accept="image/*" required>
+
+      <h2>Ingredients</h2>
+      
+        <div id="ingredients">
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Mixed greens (spinach/romaine)" required>
+      <input type="text" placeholder="Enter quantity" value="2 cups" required>
+     </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Grilled chicken breast" required>
+      <input type="text" placeholder="Enter quantity" value="1 piece" required>
+      </div>
+     <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Cherry tomatoes" required>
+      <input type="text" placeholder="Enter quantity" value="1/2 cup" required>
+     </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="English cucumber" required>
+      <input type="text" placeholder="Enter quantity" value="1/2 cup" required>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Red onion" required>
+      <input type="text" placeholder="Enter quantity" value="1/4 piece" required>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Kalamata olives" required>
+      <input type="text" placeholder="Enter quantity" value="1/3 cup" required>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Crumbled Feta cheese" required>
+      <input type="text" placeholder="Enter quantity" value="1/4 cup" required>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Dried oregano, Oil, Lemon" required>
+      <input type="text" placeholder="Enter quantity" value="As needed" required>
+      </div>
+      <div class="row">
+      <input type="text" placeholder="Enter ingredient" value="Warm pita bread" required>
+      <input type="text" placeholder="Enter quantity" value="2 triangles" required>
+      </div>
+      </div>
+
+      <h2>Instructions</h2>
+      <div id="steps">
+      <input type="text" placeholder="Step 1: Enter instructions" value="Season chicken with salt, pepper, oregano. Grill 6-7 mins per side, rest, and slice." required>
+      <input type="text" placeholder="Step 2: Enter instructions" value="Wash veggies. Slice cucumbers into rounds, halve tomatoes, and slice onions into rings." required>
+      <input type="text" placeholder="Step 3: Enter instructions" value="Place mixed greens at the bottom. Arrange veggies and chicken in distinct sections." required>
+      <input type="text" placeholder="Step 4: Enter instructions" value="Sprinkle the feta cheese and olives over the center." required>
+      <input type="text" placeholder="Step 5: Enter instructions" value="Drizzle with olive oil and lemon juice. Serve with warm pita bread on the side." required>
+    </div>
+
+      <h2>Current Video or URL</h2>
+      <input type="file" accept="video/*">
+
+      <input type="text" placeholder="Paste video URL" value="https://youtube.com/shorts/FBp-XB6rSO8?si=tuvsZnvep4gYsZso">
+
+      <button class="dark-btn">Edit Recipe</button>
+
+      </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
