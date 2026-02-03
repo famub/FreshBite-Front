@@ -202,11 +202,9 @@ card a{
 }
 
 .form-card {
-  background: #ffff;
-  width: 100%;
+  width: 90%;
   padding: 25px;
   border-radius: 16px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -292,6 +290,7 @@ textarea {
   transform: translateY(-2px); 
   box-shadow: 0 6px 15px rgba(11, 56, 43, 0.2);
 }
+
 
 /* ====  END === ADD & Edit === */
 

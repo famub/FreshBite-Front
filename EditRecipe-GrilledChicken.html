@@ -8,10 +8,11 @@
 <body class="AD">
 
   <div class="form-card">
-    <h1>Edit Recipe</h1>
 
     <form action="#" method="#" onsubmit="return EditgoToMyRecipes()">
-
+      
+    <section class="card-content" id="details">
+    <h1>Edit Recipe</h1>
 
       <div class="form-group">
         <label>Recipe Name :</label>
@@ -80,11 +81,11 @@
 
       <h2>Instructions</h2>
       <div id="steps">
-      <input type="text" placeholder="Step 1: Enter instructions" value="Season chicken with salt, pepper, oregano. Grill 6-7 mins per side, rest, and slice." required>
-      <input type="text" placeholder="Step 2: Enter instructions" value="Wash veggies. Slice cucumbers into rounds, halve tomatoes, and slice onions into rings." required>
-      <input type="text" placeholder="Step 3: Enter instructions" value="Place mixed greens at the bottom. Arrange veggies and chicken in distinct sections." required>
+      <input type="text" placeholder="Step 1: Enter instructions" value="Season the chicken breast with salt, pepper, and oregano. Grill over medium heat for 6-7 minutes per side until golden brown. Let it rest, then slice." required>
+      <input type="text" placeholder="Step 2: Enter instructions" value="Wash all vegetables. Slice the cucumbers into rounds, halve the tomatoes, and slice the onions into thin rings." required>
+      <input type="text" placeholder="Step 3: Enter instructions" value="Place the mixed greens at the bottom of the bowl. Arrange the veggies and chicken in distinct sections on top." required>
       <input type="text" placeholder="Step 4: Enter instructions" value="Sprinkle the feta cheese and olives over the center." required>
-      <input type="text" placeholder="Step 5: Enter instructions" value="Drizzle with olive oil and lemon juice. Serve with warm pita bread on the side." required>
+      <input type="text" placeholder="Step 5: Enter instructions" value="Drizzle with olive oil and lemon juice just before eating. Serve with warm pita bread on the side." required>
     </div>
 
       <h2>Current Video or URL</h2>
@@ -94,7 +95,9 @@
 
       <button class="dark-btn">Edit Recipe</button>
 
-      </form>
+    </form>
+      </section>
+
   </div>
 
   <script src="script.js"></script>
