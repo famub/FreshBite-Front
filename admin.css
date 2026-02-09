@@ -238,7 +238,9 @@ img{ max-width:100%; display:block; }
 /* ===============================
    LINKS
    =============================== */
-a{ text-decoration:none; }
+a{ text-decoration:none;
+ color:#777}
+
 a:hover{ text-decoration:underline; }
 
 /* =====================================================
@@ -352,6 +354,7 @@ tr:not(:last-child) td{
 /* ===============================
    admin css
    =============================== */
+
 
 
 
