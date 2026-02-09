@@ -83,7 +83,7 @@ img{ max-width:100%; display:block; }
 font-size: 12px;
 }
 .logout-link:hover{
-  background: gold;
+  background: gray;
   color: #000;
 }
 /* User image (circle) */
@@ -418,4 +418,5 @@ a:hover {
 end user css
    
    =============================== */
+
 
