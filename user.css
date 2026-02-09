@@ -352,6 +352,43 @@ a:hover {
   min-height:180px;
   padding-top:60px;
 }
+
+
+/* زر الحذف (سلة المهملات) */
+
+.delete-btn{
+    width:40px;
+    height:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:white;
+    border:2px solid #d94a4a;   /* احمر متناسق */
+    border-radius:12px;
+
+    cursor:pointer;
+    transition:0.25s;
+}
+
+/* الايقونة نفسها */
+.trash-icon{
+    width:20px;
+    height:20px;
+    stroke:#d94a4a;
+    stroke-width:2;
+    fill:none;
+}
+
+/* عند المرور بالماوس */
+.delete-btn:hover{
+    background:#d94a4a;
+}
+
+.delete-btn:hover .trash-icon{
+    stroke:white;
+}
 /* ===============================
    Responsive (Keeps layout usable)
    =============================== */
@@ -375,4 +412,5 @@ a:hover {
   .favorites-grid{ grid-template-columns:1fr; }
 
 }
+
 
