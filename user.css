@@ -73,8 +73,8 @@ img{ max-width:100%; display:block; }
 .logout-link{
   display:inline-block;
   text-decoration:none;
-  color:var(--red);
-  background:#f3f3f3;
+  color:#fff;
+  background:#e5483f;
   padding:5px 10px;               /* smaller */
   border-radius:10px;
   font-weight:600;
@@ -371,3 +371,4 @@ a:hover {
   .favorites-grid{ grid-template-columns:1fr; }
 
 }
+
