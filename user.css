@@ -199,6 +199,10 @@ font-size: 12px;
   cursor:pointer;
 }
 
+.em{
+  color: #000 !important;
+}
+
 /* ===============================
    Cards Grid
    - All recipes: 3 columns
