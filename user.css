@@ -82,10 +82,7 @@ img{ max-width:100%; display:block; }
   box-shadow:var(--shadow-soft);
 font-size: 12px;
 }
-.logout-link:hover{
-  background: red;
-  color: #000;
-}
+
 /* User image (circle) */
 .user-image{
   width:110px;
@@ -418,6 +415,7 @@ a:hover {
 end user css
    
    =============================== */
+
 
 
 
