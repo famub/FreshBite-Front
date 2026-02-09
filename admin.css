@@ -25,7 +25,7 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--text);
-  font-family:"Segoe UI", Tahoma, Arial, sans-serif;
+  font-family:Arial, Tahoma, "Segoe UI", sans-serif;
   font-weight:400;
   letter-spacing:0.2px;
   line-height:1.6;
@@ -352,6 +352,7 @@ tr:not(:last-child) td{
 /* ===============================
    admin css
    =============================== */
+
 
 
 
