@@ -25,7 +25,7 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--text);
-   font-family: Arial, sans-serif;
+   font-family: Arial, Tahoma, 'Segoe UI', sans-serif;
   font-weight:400;
   letter-spacing:0.2px;
   line-height:1.6;
@@ -266,7 +266,7 @@ border-radius:50%;
 .recipe-title{
   margin:20 0 8px 0;
   font-size:15px;
-  font-weight:800;
+  font-weight:bold;
   color:var(--heading);
   letter-spacing:0.4px;
   text-transform:uppercase;
@@ -316,7 +316,6 @@ border-radius:50%;
   border-radius:999px;
   background:#ececec;
   color:var(--heading);
-  font-weight:800;
 }
 
 /* ===============================
@@ -417,6 +416,17 @@ end user css
    =============================== */
 
 
-
+.like-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #333;
+  display: flex;
+  transition: color 0.2s;
+    display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
 
 
