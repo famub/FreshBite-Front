@@ -430,3 +430,8 @@ end user css
 }
 
 
+.size-6 {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2px; /* Making icons slightly bolder looks better with this style */
+}
