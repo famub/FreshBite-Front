@@ -1,4 +1,9 @@
 
+
+<?php
+echo "PHP works!";
+?>
+
 <?php
 include 'db_connection.php';
 
