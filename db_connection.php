@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";       // حسب إعداد MAMP أو XAMPP
-$password = "root";   // حسب إعداد MAMP أو XAMPP
+$user = "root";      
+$password = "root";   
 $dbname = "freshbit";
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
